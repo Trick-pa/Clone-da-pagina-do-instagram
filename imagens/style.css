@@ -1,0 +1,151 @@
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #fafafa;
+   font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.container {
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    column-gap: 20px;
+    margin: 90px 0 auto;
+}
+a {
+    text-decoration: none;
+}
+/*PITCH*/
+.pitch {
+    width: 300px;
+    height: 300px;
+}
+.pitch img { /* Primeiro add o tamnaho máximo da imageem (max-width e max-heigt) e depois configura para ajustar automaticamente(valor:auto) */
+    max-width: 660px;
+    max-height: 660px;
+    width: auto;
+    height: auto;
+}
+
+/*FORMULÁRIO*/
+.formulario {
+    margin-top: 30px;
+}
+.formulario form {
+    border: 1px solid rgb(219, 219, 219);
+    background-color:white;
+    padding: 20px 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.logo {
+    max-width: 150px;
+    max-height: 76px;
+    width: auto;
+    height: auto;
+    padding-bottom: 5px;
+}
+input {
+    height: 36px;
+    font-size: 14px;
+    color: rgb(38, 38, 38);
+    width: 100%;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb ;
+    margin-bottom: 5px;
+    padding: 9px;  
+}
+button {
+    width: 100%;
+    height: 30px;
+    border: 0;
+    border-radius: 4px;
+    appearance: none;
+    height: 36px;
+    background-color: #3ea9fa;
+    color: #fafafa;
+    margin-top: 10px;
+    appearance: none;
+}
+button:disabled {
+    background-color: #94caf3;
+    color: #fafafa;
+}
+.separator {
+    font-size: 13px;
+    color: #8e8e8e;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 16px 0 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.separator::before{
+    content: "";
+    width: 106px;
+    height: 1px;
+    display: block;
+    background-color: #bdbdbd;
+    align-items: center;
+}
+
+.separator::after{
+    content: "";
+    width: 106px;
+    height: 1px;
+    display: block;
+    background-color: #bdbdbd;
+    align-items: center;
+}
+.facebook {
+    max-width: 18px;
+    max-height: 18px;
+    width: auto;
+    height: auto;
+}
+
+.log-in-facebook {
+    color: #385185;
+    font-weight: bold;
+    margin: 0 auto 18px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forgot-passord {
+    color: #385185;
+    font-size: 13px;
+}
+
+
+/*SING UP*/
+.sigup {
+    border: 1px solid rgb(219, 219, 219);
+    background-color:white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.singup-link {
+    color: #0095f6;
+    font-size: 16px;
+}
+
+
+/* GET APP */
+.get-app {
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+.get-app img {
+    height: 45px;
+    width: 136px;
+}

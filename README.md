@@ -1,0 +1,7 @@
+# CLONE DA PÁGINA INICIAL DO INSTAGRAM
+
+Foram usados:
+
+HTML;
+
+CSS;
